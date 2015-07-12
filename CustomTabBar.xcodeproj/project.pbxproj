@@ -14,6 +14,10 @@
 		9A4C58AF1B528F62000414E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C58AE1B528F62000414E2 /* Images.xcassets */; };
 		9A4C58B21B528F62000414E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C58B01B528F62000414E2 /* LaunchScreen.xib */; };
 		9A4C58BE1B528F62000414E2 /* CustomTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C58BD1B528F62000414E2 /* CustomTabBarTests.m */; };
+		9A4C58CA1B528F86000414E2 /* GJTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C58C91B528F86000414E2 /* GJTab.m */; };
+		9A4C58CC1B528F9D000414E2 /* GJTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C58CB1B528F9D000414E2 /* GJTab.xib */; };
+		9A4C58D01B52932B000414E2 /* UIColor+GJColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C58CF1B52932B000414E2 /* UIColor+GJColor.m */; };
+		9A4C58D31B52958F000414E2 /* GJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C58D21B52958F000414E2 /* GJTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		9A4C58B71B528F62000414E2 /* CustomTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4C58BC1B528F62000414E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A4C58BD1B528F62000414E2 /* CustomTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarTests.m; sourceTree = "<group>"; };
+		9A4C58C81B528F86000414E2 /* GJTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJTab.h; sourceTree = "<group>"; };
+		9A4C58C91B528F86000414E2 /* GJTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJTab.m; sourceTree = "<group>"; };
+		9A4C58CB1B528F9D000414E2 /* GJTab.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GJTab.xib; sourceTree = "<group>"; };
+		9A4C58CE1B52932B000414E2 /* UIColor+GJColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GJColor.h"; sourceTree = "<group>"; };
+		9A4C58CF1B52932B000414E2 /* UIColor+GJColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GJColor.m"; sourceTree = "<group>"; };
+		9A4C58D11B52958F000414E2 /* GJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJTabBar.h; sourceTree = "<group>"; };
+		9A4C58D21B52958F000414E2 /* GJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +96,8 @@
 				9A4C58A61B528F62000414E2 /* AppDelegate.m */,
 				9A4C58A81B528F62000414E2 /* ViewController.h */,
 				9A4C58A91B528F62000414E2 /* ViewController.m */,
+				9A4C58CD1B529312000414E2 /* Utilities */,
+				9A4C58C71B528F70000414E2 /* Views */,
 				9A4C58AB1B528F62000414E2 /* Main.storyboard */,
 				9A4C58AE1B528F62000414E2 /* Images.xcassets */,
 				9A4C58B01B528F62000414E2 /* LaunchScreen.xib */,
@@ -117,6 +130,27 @@
 				9A4C58BC1B528F62000414E2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A4C58C71B528F70000414E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A4C58D11B52958F000414E2 /* GJTabBar.h */,
+				9A4C58D21B52958F000414E2 /* GJTabBar.m */,
+				9A4C58C81B528F86000414E2 /* GJTab.h */,
+				9A4C58C91B528F86000414E2 /* GJTab.m */,
+				9A4C58CB1B528F9D000414E2 /* GJTab.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9A4C58CD1B529312000414E2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9A4C58CE1B52932B000414E2 /* UIColor+GJColor.h */,
+				9A4C58CF1B52932B000414E2 /* UIColor+GJColor.m */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +235,7 @@
 			files = (
 				9A4C58AD1B528F62000414E2 /* Main.storyboard in Resources */,
 				9A4C58B21B528F62000414E2 /* LaunchScreen.xib in Resources */,
+				9A4C58CC1B528F9D000414E2 /* GJTab.xib in Resources */,
 				9A4C58AF1B528F62000414E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +255,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A4C58AA1B528F62000414E2 /* ViewController.m in Sources */,
+				9A4C58D01B52932B000414E2 /* UIColor+GJColor.m in Sources */,
 				9A4C58A71B528F62000414E2 /* AppDelegate.m in Sources */,
+				9A4C58CA1B528F86000414E2 /* GJTab.m in Sources */,
+				9A4C58D31B52958F000414E2 /* GJTabBar.m in Sources */,
 				9A4C58A41B528F62000414E2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

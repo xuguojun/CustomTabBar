@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "GJTabBar.h"
 
-@interface ViewController ()
+@interface ViewController ()<GJTabBarDelegate>
+
+@property (nonatomic, weak) IBOutlet GJTabBar *tabBar;
 
 @end
 
@@ -16,12 +19,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.tabBar.titles = @[@"TAB 1", @"TAB 2", @"TAB 3", @"TAB 4"];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - GJTabBarDelegate
+- (void)tabBar:(GJTabBar *)tabBar didSelectTabAtIndex:(NSInteger)index{
+    NSLog(@"You Select Tab At Index %ld", (long)index);
 }
 
 @end

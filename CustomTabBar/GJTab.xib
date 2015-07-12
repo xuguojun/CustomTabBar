@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GJTab">
+            <connections>
+                <outlet property="bottomBar" destination="pDB-18-2aJ" id="chq-TC-RTf"/>
+                <outlet property="titleLabel" destination="JVg-Gq-e6F" id="oLV-7K-vP9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tab" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JVg-Gq-e6F">
+                    <rect key="frame" x="0.0" y="13" width="100" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="dsU-ea-sR5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pDB-18-2aJ" userLabel="Bottom Bar">
+                    <rect key="frame" x="0.0" y="46" width="100" height="2"/>
+                    <color key="backgroundColor" red="0.1450980392" green="0.61176470589999998" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="Dnm-uv-f23"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="JVg-Gq-e6F" secondAttribute="centerY" constant="0.5" id="IRK-6W-epD"/>
+                <constraint firstAttribute="trailing" secondItem="pDB-18-2aJ" secondAttribute="trailing" id="XBw-hp-1gI"/>
+                <constraint firstItem="pDB-18-2aJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Xkk-TG-wWH"/>
+                <constraint firstItem="JVg-Gq-e6F" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hzH-92-I51"/>
+                <constraint firstAttribute="trailing" secondItem="JVg-Gq-e6F" secondAttribute="trailing" id="n3C-kc-UNF"/>
+                <constraint firstAttribute="bottom" secondItem="pDB-18-2aJ" secondAttribute="bottom" id="sR7-jA-CcF"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
