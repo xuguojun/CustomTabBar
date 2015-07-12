@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1FAC6678-E2C6-47C0-BE24-3E90D1B973F6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>890DFA65B027DA44CF12F15D393D983A7C680B6D</key>
+		<string>https://github.com/xuguojun/CustomTabBar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CustomTabBar.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>890DFA65B027DA44CF12F15D393D983A7C680B6D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/xuguojun/CustomTabBar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>890DFA65B027DA44CF12F15D393D983A7C680B6D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>890DFA65B027DA44CF12F15D393D983A7C680B6D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CustomTabBar</string>
+		</dict>
+	</array>
+</dict>
+</plist>

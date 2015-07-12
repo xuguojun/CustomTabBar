@@ -58,8 +58,9 @@
     // 1. Height
     for (int i = 0; i < count; i++) {
         UIView *tab = tabs[i];
+        NSString *VFLFormat = [NSString stringWithFormat:@"V:[tab(%f)]", self.bounds.size.height];
         NSDictionary *dictionary = NSDictionaryOfVariableBindings(tab);
-        NSArray *height = [NSLayoutConstraint constraintsWithVisualFormat:@"V:[tab(48)]"
+        NSArray *height = [NSLayoutConstraint constraintsWithVisualFormat:VFLFormat
                                                                   options:0
                                                                   metrics:nil
                                                                     views:dictionary];

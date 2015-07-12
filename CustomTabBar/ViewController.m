@@ -11,7 +11,10 @@
 
 @interface ViewController ()<GJTabBarDelegate>
 
-@property (nonatomic, weak) IBOutlet GJTabBar *tabBar;
+@property (nonatomic, weak) IBOutlet GJTabBar *tabBar1;
+@property (nonatomic, weak) IBOutlet GJTabBar *tabBar2;
+@property (nonatomic, weak) IBOutlet GJTabBar *tabBar3;
+@property (nonatomic, weak) IBOutlet GJTabBar *tabBar4;
 
 @end
 
@@ -20,7 +23,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.tabBar.titles = @[@"TAB 1", @"TAB 2", @"TAB 3", @"TAB 4"];
+    self.tabBar1.titles = @[@"TAB 1", @"TAB 2"];
+    self.tabBar2.titles = @[@"TAB 1", @"TAB 2", @"TAB 3"];
+    self.tabBar3.titles = @[@"TAB 1", @"TAB 2", @"TAB 3", @"TAB 4"];
+    
+    self.tabBar4.titles = @[@"TAB 1", @"TAB 2", @"TAB 3", @"TAB 4"];
+    self.tabBar4.tabSelectedColor = [UIColor redColor];
 }
 
 #pragma mark - GJTabBarDelegate

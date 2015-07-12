@@ -18,6 +18,8 @@
 		9A4C58CC1B528F9D000414E2 /* GJTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C58CB1B528F9D000414E2 /* GJTab.xib */; };
 		9A4C58D01B52932B000414E2 /* UIColor+GJColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C58CF1B52932B000414E2 /* UIColor+GJColor.m */; };
 		9A4C58D31B52958F000414E2 /* GJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C58D21B52958F000414E2 /* GJTabBar.m */; };
+		9A4C58D81B52AAE5000414E2 /* Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C58D61B52AAE5000414E2 /* Portrait.png */; };
+		9A4C58D91B52AAE5000414E2 /* Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C58D71B52AAE5000414E2 /* Landscape.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9A4C58CF1B52932B000414E2 /* UIColor+GJColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GJColor.m"; sourceTree = "<group>"; };
 		9A4C58D11B52958F000414E2 /* GJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJTabBar.h; sourceTree = "<group>"; };
 		9A4C58D21B52958F000414E2 /* GJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJTabBar.m; sourceTree = "<group>"; };
+		9A4C58D61B52AAE5000414E2 /* Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portrait.png; sourceTree = "<group>"; };
+		9A4C58D71B52AAE5000414E2 /* Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Landscape.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 		9A4C58A01B528F62000414E2 /* CustomTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				9A4C58D61B52AAE5000414E2 /* Portrait.png */,
+				9A4C58D71B52AAE5000414E2 /* Landscape.png */,
 				9A4C58A51B528F62000414E2 /* AppDelegate.h */,
 				9A4C58A61B528F62000414E2 /* AppDelegate.m */,
 				9A4C58A81B528F62000414E2 /* ViewController.h */,
@@ -233,7 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A4C58D81B52AAE5000414E2 /* Portrait.png in Resources */,
 				9A4C58AD1B528F62000414E2 /* Main.storyboard in Resources */,
+				9A4C58D91B52AAE5000414E2 /* Landscape.png in Resources */,
 				9A4C58B21B528F62000414E2 /* LaunchScreen.xib in Resources */,
 				9A4C58CC1B528F9D000414E2 /* GJTab.xib in Resources */,
 				9A4C58AF1B528F62000414E2 /* Images.xcassets in Resources */,
