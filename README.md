@@ -3,10 +3,10 @@
 Click the image to view video on YouTube.com
 
 
-[![ScreenShot](https://github.com/xuguojun/CustomTabBar/tree/master/CustomTabBar/Portrait.png)](http://youtu.be/NIDZ87v2yXk)
-[![ScreenShot](https://github.com/xuguojun/CustomTabBar/tree/master/CustomTabBar/Landscape.png)](https://youtu.be/NIDZ87v2yXk)
+[![ScreenShot](https://github.com/xuguojun/CustomTabBar/blob/master/CustomTabBar/Portrait.png)](http://youtu.be/NIDZ87v2yXk)
+[![ScreenShot](https://github.com/xuguojun/CustomTabBar/blob/master/CustomTabBar/Landscape.png)](https://youtu.be/NIDZ87v2yXk)
 
-Using
+#Using
 
 self.tabBar.titles = @[@"TAB 1", @"TAB 2", @"TAB 3", @"TAB 4"];
 
