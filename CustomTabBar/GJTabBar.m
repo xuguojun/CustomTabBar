@@ -88,9 +88,9 @@
                                                                               attribute:NSLayoutAttributeLeading
                                                                               relatedBy:NSLayoutRelationEqual
                                                                                  toItem:self
-                                                                              attribute:NSLayoutAttributeLeadingMargin
+                                                                              attribute:NSLayoutAttributeLeading
                                                                              multiplier:1.f
-                                                                               constant:-16.f];
+                                                                               constant:0.f];
             
             [self addConstraint:leadingSpacing];
         } else {
@@ -125,12 +125,12 @@
     // 5. Trailing for Last View
     UIView *lastTab = tabs.lastObject;
     NSLayoutConstraint *trailing = [NSLayoutConstraint constraintWithItem:self
-                                                                attribute:NSLayoutAttributeTrailingMargin
+                                                                attribute:NSLayoutAttributeTrailing
                                                                 relatedBy:NSLayoutRelationEqual
                                                                    toItem:lastTab
                                                                 attribute:NSLayoutAttributeTrailing
                                                                multiplier:1.f
-                                                                 constant:-16.f];
+                                                                 constant:0.f];
     [self addConstraint:trailing];
 }
 

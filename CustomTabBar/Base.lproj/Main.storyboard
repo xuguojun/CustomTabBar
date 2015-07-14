@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -21,73 +22,32 @@
                                 <rect key="frame" x="0.0" y="40" width="600" height="48"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="XLn-A6-QHl"/>
+                                    <constraint firstAttribute="height" constant="48" id="myV-oF-a5Y"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="NpT-TM-cx2"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="krQ-dn-TCM" userLabel="Tab Bar 2" customClass="GJTabBar">
-                                <rect key="frame" x="0.0" y="128" width="600" height="48"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="VNH-nR-raK"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="e5X-sa-Q4v"/>
-                                </constraints>
-                                <connections>
-                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="Nh2-3A-jRw"/>
-                                </connections>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lrW-YH-wte" userLabel="Tab Bar 3" customClass="GJTabBar">
-                                <rect key="frame" x="0.0" y="216" width="600" height="48"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="2TJ-Vl-Vxx"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="m6O-lj-SMI"/>
-                                </constraints>
-                                <connections>
-                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="0M2-kF-ofk"/>
-                                </connections>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DdY-gH-03K" userLabel="Tab Bar 4" customClass="GJTabBar">
-                                <rect key="frame" x="0.0" y="304" width="600" height="48"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="QpN-OL-mTw"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="mqL-7R-D5H"/>
-                                </constraints>
-                                <connections>
-                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="CAL-wQ-sI9"/>
-                                </connections>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="No3-BW-Zq1" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="0Co-mZ-DlP"/>
+                            <constraint firstItem="No3-BW-Zq1" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="6lG-RT-W2J"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="No3-BW-Zq1" secondAttribute="bottom" id="86e-Uf-Jif"/>
-                            <constraint firstItem="krQ-dn-TCM" firstAttribute="top" secondItem="No3-BW-Zq1" secondAttribute="bottom" constant="40" id="8iH-Mx-Pk0"/>
-                            <constraint firstItem="lrW-YH-wte" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="Bmh-sF-i3U"/>
-                            <constraint firstItem="DdY-gH-03K" firstAttribute="top" secondItem="lrW-YH-wte" secondAttribute="bottom" constant="40" id="Fve-uA-3Mm"/>
-                            <constraint firstItem="lrW-YH-wte" firstAttribute="top" secondItem="krQ-dn-TCM" secondAttribute="bottom" constant="40" id="Kt6-Lv-cXf"/>
                             <constraint firstItem="No3-BW-Zq1" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="Lgw-B3-FXf"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="DdY-gH-03K" secondAttribute="trailing" constant="-16" id="Saf-A7-vYS"/>
-                            <constraint firstItem="DdY-gH-03K" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="fSV-Yh-loF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="lrW-YH-wte" secondAttribute="trailing" constant="-16" id="ih3-gm-6zm"/>
-                            <constraint firstItem="krQ-dn-TCM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="kgv-iU-8WL"/>
-                            <constraint firstItem="No3-BW-Zq1" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="lY3-cJ-rrf"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="krQ-dn-TCM" secondAttribute="trailing" constant="-16" id="pqy-gu-UxK"/>
+                            <constraint firstAttribute="trailing" secondItem="No3-BW-Zq1" secondAttribute="trailing" id="Ptw-ag-g3O"/>
                             <constraint firstAttribute="trailingMargin" secondItem="No3-BW-Zq1" secondAttribute="trailing" constant="-16" id="zqW-G3-f7m"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="Lgw-B3-FXf"/>
+                                <exclude reference="zqW-G3-f7m"/>
                                 <exclude reference="86e-Uf-Jif"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="tabBar1" destination="No3-BW-Zq1" id="4Uo-v7-Nx5"/>
-                        <outlet property="tabBar2" destination="krQ-dn-TCM" id="bhI-CW-hOy"/>
-                        <outlet property="tabBar3" destination="lrW-YH-wte" id="86o-OQ-XQo"/>
-                        <outlet property="tabBar4" destination="DdY-gH-03K" id="wpo-DY-5JQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

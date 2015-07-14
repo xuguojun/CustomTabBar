@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
@@ -18,7 +19,7 @@
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tab" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JVg-Gq-e6F">
                     <rect key="frame" x="0.0" y="13" width="100" height="21"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="21" id="dsU-ea-sR5"/>
+                        <constraint firstAttribute="height" constant="21" id="R9Q-BG-lbb"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -28,18 +29,18 @@
                     <rect key="frame" x="0.0" y="46" width="100" height="2"/>
                     <color key="backgroundColor" red="0.1450980392" green="0.61176470589999998" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="2" id="Dnm-uv-f23"/>
+                        <constraint firstAttribute="height" constant="2" id="6uE-E3-yhL"/>
                     </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="JVg-Gq-e6F" secondAttribute="centerY" constant="0.5" id="IRK-6W-epD"/>
-                <constraint firstAttribute="trailing" secondItem="pDB-18-2aJ" secondAttribute="trailing" id="XBw-hp-1gI"/>
-                <constraint firstItem="pDB-18-2aJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Xkk-TG-wWH"/>
-                <constraint firstItem="JVg-Gq-e6F" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hzH-92-I51"/>
-                <constraint firstAttribute="trailing" secondItem="JVg-Gq-e6F" secondAttribute="trailing" id="n3C-kc-UNF"/>
-                <constraint firstAttribute="bottom" secondItem="pDB-18-2aJ" secondAttribute="bottom" id="sR7-jA-CcF"/>
+                <constraint firstAttribute="bottom" secondItem="pDB-18-2aJ" secondAttribute="bottom" id="0wb-d1-AEJ"/>
+                <constraint firstAttribute="centerY" secondItem="JVg-Gq-e6F" secondAttribute="centerY" constant="0.5" id="PDj-zw-u7n"/>
+                <constraint firstAttribute="trailing" secondItem="JVg-Gq-e6F" secondAttribute="trailing" id="QRm-aT-DC0"/>
+                <constraint firstAttribute="trailing" secondItem="pDB-18-2aJ" secondAttribute="trailing" id="amz-Oh-053"/>
+                <constraint firstItem="JVg-Gq-e6F" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eph-Cl-yVp"/>
+                <constraint firstItem="pDB-18-2aJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="w7g-eW-tla"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <nil key="simulatedTopBarMetrics"/>
